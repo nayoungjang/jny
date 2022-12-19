@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;;
+        margin:0 auto;
+        color: #fff;
+        background-color:#2c2c2c;
+          overflow-x: hidden;
+      }
+        
+        #margin_wrap{margin:0 auto;width:1400px;}
+      li{
+        list-style-type: none;
+      }
+      .clear{
+        clear: both;
+      }
+    header{
+      width:1140px;
+      height:200px;
+      margin: 0 auto;
+     
+      
+    }
+    #logo{
+      float: left;
+      
+      padding: 10px;
+      margin-top:30px;
+      margin-left:-217px;
+     
+    }
+        
+      
+        
+        #logo img{width:180px;height:60px;}
+    #menus{
+      float: right;
+      margin: 0px -230px 0px 0px;
+      
+    }
+
+    #top_menu{
+      text-align: right;
+      margin-top: 50px;
+    
+    }
+    #main_menu {
+      margin-top: 60px;
+      font-family: '맑은 고딕';
+      font-size: 20px;
+      color: #fff;
+    
+    }
+    #main_menu li{
+      display: inline;
+      margin-left: 80px;
+      color: #fff;
+    }
+        
+        #main_menu li:hover{color:lightblue;text-decoration: underline;}  
+        
+        
+    #main_img {
+      width: 100%;
+      height: 281px;
+      /*background-image: url(toei1.gif);*/
+      background-repeat: no-repeat;
+      
+      margin-top: 20px;
+    }
+    #contents{
+      width: 1140px;
+        height:900px;
+      margin: 0 auto;
+    }
+        
+        #sub_menu a {color:#fff;}
+    #sub_menu {
+        width: 200px;
+       float: left;
+        margin: 55px 0px 0px -225px;
+       
+    }
+    #sub_menu h3 {
+      font-size: 24px;
+      color: #fff;
+      padding: 12px;
+      background-color: dotted 1px #cccccc;
+    }
+    #sub_menu li{
+      padding: 10px;
+      border-bottom: solid 1px #cccccc;
+        font-size: 20px;
+    }
+     
+    #main_contents{
+        width:1100px;
+        float:right;
+        margin: 0px -60px 0px 0px;
+       
+    }
+        #wrap img{width:700px;}
+    
+    #main_contents h3{
+      font-size: 17px;margin-top:40px;
+      padding-bottom: 50px;
+      border-bottom: solid 1px #cccccc;
+    }
+    #main_contents h4{
+      line-height: 300%;
+    padding-top: 20px;
+    }
+    #main_contents p{
+      margin-top: 30px;
+      line-height: 180%;
+    }
+    #main_contents img{
+      padding: 10px;
+    }
+    #main_contents #figure{
+      margin-top: 30px;
+      text-align: center;
+    }
+    #main_contents li {
+      padding: 5px;
+    }
+        #main{width:1400px;height:900px;background-image: url(img/sub4_bg.jpg);background-position: center;background-repeat: no-repeat;background-size: 1400px;margin-left:-200px;margin-top:20px;}
+        
+        #main li{float:left;width:500px;margin-left:150px;}
+        #main li:nth-child(1){background-image: url(img/Layer1.png);background-position: center;background-repeat: no-repeat;
+        background-size: 70%;margin-top:-55px;}
+         #main li:nth-child(2){position:relative;left:-255px;top:-5px;background-image: url(img/Layer5.png);background-position: center;background-repeat: no-repeat;background-size: 50%;z-index: 10;}
+       #main li:nth-child(3){position:relative;top:-1040px;right:-220px;background-image: url(img/Layer2.png);background-position: center;background-repeat: no-repeat;
+        background-size: 64%;}
+        #main li:nth-child(4){position:relative;top:-1000px;left:-80px;background-image: url(img/Layer4.png);background-position: center;background-repeat: no-repeat;
+        background-size:60%;}
+        
+        
+        /*hover*/
+        #main li{float:left;width:500px;height:1000px;margin-left:150px;}
+        #main li:nth-child(1):hover{background-image: url(img/Group2.png);background-position: center;background-repeat: no-repeat;
+        background-size:110%;position:relative;top:-55px;left:-20px;}
+        #main li:nth-child(2):hover{position:relative;left:-270px;top:3px;background-image: url(img/Group3.png);background-position: center;background-repeat: no-repeat;background-size: 69%;position:relative;}
+        #main li:nth-child(3):hover{position:relative;background-image: url(img/Group1.png);background-position: center;background-repeat: no-repeat;z-index: 10;
+        background-size: 70%;}
+        #main li:nth-child(4):hover{position:relative;top:-1000px;left:20px;background-image: url(img/Group4.png);background-position: center;background-repeat: no-repeat;
+        background-size: 100%;}
+       
+        
+        
+        
+        #sub_contents_wrap {position:absolute;width:100%;height:1300px;top:1300px;font-size:17px;left:80px;}
+        #sub_contents_wrap li{float:left;width:296px;height:600px;margin-left:40px;}
+        
+        #sub_contents_wrap span{width:320px;}
+        
+        .con{width:296px;height:400px;background-color:#000;}
+        .con_text{margin-top:60px;line-height: 30px;}
+        .con_text span{position:relative;top:30px;}
+        .solid{border:1px solid #fff;}
+        
+        #con1{background-image: url(img/zere.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;}
+        #con1:hover{background-image: url(img/zere2.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 110%;transition:0.3s;}
+        #con2{background-image: url(img/sdw.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;}
+        #con2:hover{background-image: url(img/sdw2.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 110%;transition:0.3s;}
+        #con3{background-image: url(img/zz1.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;}
+        #con3:hover{background-image: url(img/zz2.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 110%;transition:0.3s;}
+        
+        #con4{background-image: url(img/thing.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;}
+        #con4:hover{background-image: url(img/thing2.png);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 110%;transition:0.3s;}
+        #con5{background-image: url(img/zzz.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;}
+        #con5:hover{background-image: url(img/zzz2.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 110%;transition:0.3s;}
+        #con6{background-image: url(img/sss.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;}
+        #con6:hover{background-image: url(img/sss2.jpg);width:296px;height:400px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 110%;transition:0.3s;}
+        
+        .con_text p {font-weight: bold;}
+        #con_wrap{position:relative;top:300px;width:100%;height:600px;}
+        
+      
+    footer{
+        width: 100%;
+        height: 150px;
+        background-color:black;
+        margin-top:2100px;
+        
+    }   
+    #footer_box {
+    width: 1140px;
+    height: 150px;
+    margin: 50px;
+   color: #000000;
+}
+#footer_logo{
+  float: right;
+    margin: 100px -150px 0px 0px;}
+          #footer_contents{float:right;margin-right:200px;}
+        #logo2 img{width:170px;}
+        #logo2{margin-left:200px;position:relative;top:40px;}
+
+    
+    
+    </style>
+  </head>
+  <body>
+   <div id="margin_wrap">
+       
+  
+    <header>
+     
+      <div id="logo">
+        <a href="index.html"><img src="img/logo.png" width="300px" height="80px" alt=""></a>
+      </div>
+      <nav id="menus">
+      
+        <ul id="main_menu">
+          <a href="sub1.html"><li>Preview</li></a>
+          <a href="sub2.html"><li>Image</li></a>
+          <a href="sub3.html"><li>Addams Family</li></a>
+          <a href="sub4.html"><li>Character</li></a>
+          <a href="sub5.html"><li>Director</li></a>
+        </ul>
+      </nav>
+    </header>
+  
+    <section id="contents">
+      
+      <div id="main_contents">
+          
+      <div id="main">
+          <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ul>
+          
+      </div>
+      
+      
+    </section>
+    
+    <aside id="sub_contents">
+      
+              
+                
+                <div id="sub_contents_wrap">
+                    <ul id="contents">
+                       
+                       
+                        <li>
+                        <div id="con1" class="con"></div>
+                        
+                        <div class="con_text">
+                        <p>페스터 삼촌 | 프레드 아미슨</p>
+                        <br>
+                        <div class="solid"></div>
+                        <span>어둡고 움푹 들어간 눈과 종종 미친 미소를 가진 대머리에 등이 굽은 웬즈데이 아담스의 삼촌이자 고메즈의 형. 항상 무겁고 긴 모피 코트를 입고 다닌다. 특징으로 손끝으로 전기를 전도하는 이상한 능력을 가지고 있다. 고메즈로부터 웬즈데이의 소식을 전해 듣고 네버모어로 오게 된다.
+
+                       </span>
+                       
+                       </div>
+                       </li>
+                        
+                        
+                        
+                        
+                         <li>
+                         <div id="con2" class="con"></div>
+                         
+                         
+                         
+                         <div class="con_text">
+                         <p>러치 | 조지 부르체아</p>
+                         <br>
+                         
+                         <div class="solid"></div>
+                        <span>아담스 가의 집사. 키가 아주 크고 과묵한 것이 특징이다. 등장할 때마다 아담스 가의 차량을 운전하고 있거나 짐을 나르거나, 고메즈의 겉옷을 들고 있다가 입혀주는 등 비중은 배경이나 다름없다.
+                        
+                      </span>
+                       
+                       </div>
+                        </li>
+                        
+                        
+                        <li>
+                        <div id="con3" class="con"></div>
+                        
+                        <div class="con_text">
+                         <p>비앙카 바클레이 | 조이 선데이</p>
+                         <br>
+                         
+                         <div class="solid"></div>
+                        <span>도너번 갤핀의 아들. 웨더베인이라는 카페에서 아르바이트를 하고있다. <br>일을 하다 기계가 고장나 난처해하자 웬즈데이가 기계를 고쳐주며 처음으로 만난다. 카페에서의 만남 이후로 지속적으로 웬즈데이에게 호감을 보인다.
+                       
+                       </span>
+                       
+                       </div>
+                       </li>
+                    
+                      <div id="con_wrap">
+                       <li>
+                        <div id="con4" class="con"></div>
+                        
+                        <div class="con_text">
+                        <p>씽 | 빅터 도로반투</p>
+                        <br>
+                        <div class="solid"></div>
+                        <span>아담스가의 일원으로 몸은 없고 손만 있는 무언가. <br>
+                        극 초반 네버모어 학교에 편입된 웬즈데이를 걱정해 아담스 부부가 몰래 보내지만 금방 들키고 이후 약간의 협상으로 극 중 웬즈데이를 도와 수많은 일을 해결한다. 
+                       </span>
+                       
+                       </div>
+                       </li>
+                        
+                        
+                        
+                        
+                         <li>
+                         <div id="con5" class="con"></div>
+                         
+                         
+                         
+                         <div class="con_text">
+                         <p>이니드 싱클레어 | 엠마 마이어스</p>
+                         <br>
+                         
+                         <div class="solid"></div>
+                        <span>웬즈데이의 룸메이트로 종족은 늑대인간이다. 하지만 늑대인간으로서 각성은 하지 못해서 보유 능력은 고작해야 손톱에 날만 세울 수 있는 정도다. <br>단, 이것만 해도 우습게 볼 수가 없는 것이 이니드의 손톱은 단단한 카누의 옆면에 구멍을 낼 수 있을 정도로 단단하다. 
+                        
+                      </span>
+                       
+                       </div>
+                        </li>
+                        
+                        
+                        <li>
+                        <div id="con6" class="con"></div>
+                        
+                        <div class="con_text">
+                         <p>타일러 갤핀 | 헌터 두한</p>
+                         <br>
+                         
+                         <div class="solid"></div>
+                        <span>도너번 갤핀의 아들. 웨더베인이라는 카페에서 아르바이트를 하고있다. <br>일을 하다 기계가 고장나 난처해하자 웬즈데이가 기계를 고쳐주며 처음으로 만난다. 카페에서의 만남 이후로 지속적으로 웬즈데이에게 호감을 보인다.
+                       
+                       </span>
+                       
+                       </div>
+                       </li>
+                        
+                    </ul>
+                    </div>
+          
+    </aside>
+    </div>
+    </div>
+       </div>
+ 
+    <div id="clear"></div>
+    
+   <footer>
+        <div id="logo2">
+            <img src="img/logo.png" alt="">
+        </div>
+        
+        <div id="footer_contents">
+            <p>@copyright 2022 nayoung jang</p>
+        </div>
+    </footer>
+     
+  </body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+   
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;;
+        
+        color: #fff;
+        background-color:#000;
+      }
+      li{
+        list-style-type: none;
+      }
+      .clear{
+        clear: both;
+      }
+    header{
+      width:1140px;
+      height:200px;
+      margin: 0 auto;
+      
+        
+    }
+        #main{background-image: url(img/main.jpg);width:100%;height:1200px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;}
+        #main:hover{background-image: url(img/main2.jpg);width:100%;height:1200px;background-position: center;background-repeat: no-repeat;background-position: center;
+        background-size: 100%;transition:0.3s;}
+    #logo{
+      float: left;
+      
+      padding: 10px;
+      margin-top:30px;
+      margin-left:-217px;
+     
+    }
+        
+        #logo img{width:180px;height:60px;}
+        #logo2 img{width:170px;}
+        #logo2{margin-left:200px;position:relative;top:40px;}
+    #menus{
+      float: right;
+      margin: 0px -230px 0px 0px;
+      
+    }
+
+    #top_menu{
+      text-align: right;
+      margin-top: 50px;
+    
+    }
+    #main_menu {
+      margin-top: 60px;
+      font-family: '맑은 고딕';
+      font-size: 20px;
+      color: #fff;
+    
+    }
+    #main_menu li{
+      display: inline;
+      margin-left: 80px;
+      color: #fff;
+    }
+        a{text-decoration: none;}
+        #main_menu li:hover{color:lightblue;text-decoration: underline;}  
+        
+        #wrap{width:1200px;}
+    
+    #contents{
+      width: 1140px;
+        height:550px;
+      margin: 0 auto;
+    }
+        
+        #video_wrap{position:absolute;z-index: 10;top:160px;left:409px;}
+    #sub_menu {
+        width: 100px;
+       float: left;
+        margin: 55px 0px 0px -225px;
+       
+    }
+    #sub_menu h3 {
+      font-size: 18px;
+      color: #fff;
+      padding: 12px;
+      background-color: dotted 1px #cccccc;
+    }
+    #sub_menu li{
+      padding: 10px;
+      border-bottom: solid 1px #cccccc;
+    }
+     
+        #main img{width:100%;margin-top:45px;}
+        
+           footer{
+        width: 100%;
+        height: 150px;
+        background-color:black;
+        margin-top:-20px;
+        
+    }   
+        a{text-decoration: none;}
+    #footer_box {
+    width: 1140px;
+    height: 150px;
+    margin: 50px;
+   color: #000000;
+}
+
+        #footer_contents{float:right;margin-right:200px;}
+    </style>
+  </head>
+  <body>
+   
+   
+    <header>
+     
+      <div id="logo">
+        <a href="index.html"><img src="img/logo.png" width="300px" height="80px" alt=""></a>
+      </div>
+      <nav id="menus">
+      
+        <ul id="main_menu">
+          <a href="sub1.html"><li>Preview</li></a>
+          <a href="sub2.html"><li>Image</li></a>
+          <a href="sub3.html"><li>Addams Family</li></a>
+          <a href="sub4.html"><li>Character</li></a>
+          <a href="sub5.html"><li>Director</li></a>
+        </ul>
+      </nav>
+    </header>
+      
+      <section id="main">
+          
+          
+          
+      </section>
+      
+      <div id="wrap">
+       <div id="video_wrap">
+                <video muted="" width:1200px="" height:0px="" src="img/main_dd.mp4" autoplay="" loop=""></video>
+            </div><!--video_wrap-->
+      </div>
+    
+    <footer>
+        <div id="logo2">
+            <img src="img/logo.png" alt="">
+        </div>
+        
+        <div id="footer_contents">
+            <p>@copyright 2022 nayoung jang</p>
+        </div>
+    </footer>
+  </body>
+</html>
